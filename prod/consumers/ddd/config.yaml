@@ -1,0 +1,20 @@
+name: ddd
+ad_admin_users: ddd
+banner_color: '#247b6a'
+woodpecker_orgs: ARGO
+backgroundColor: '#247b6a'
+server:
+  additional_env:
+    newKey: New Value
+agent:
+  openshift:
+    cluster: https://api.cc.cc.cc:6443
+    namespace: ddd
+    replicaCount: 1
+    resources:
+      limits:
+        memory: 500Mi
+      requests:
+        cpu: 500m
+        memory: 500Mi
+  extraSecretNamesForEnvFrom: ddd

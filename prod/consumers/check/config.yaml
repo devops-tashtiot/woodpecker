@@ -1,0 +1,9 @@
+name: check
+ad_admin_users: sss
+banner_color: '#247b6a'
+woodpecker_orgs: ARGO
+agent:
+  openshift:
+    cluster: https://check:6443
+    namespace: nati
+    replicaCount: 1

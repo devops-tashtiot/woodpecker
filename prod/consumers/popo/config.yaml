@@ -1,0 +1,9 @@
+name: popo
+ad_admin_users: djjd
+banner_color: '#247b6a'
+woodpecker_orgs: ARGO
+agent:
+  openshift:
+    cluster: https://api.oscp-cicd.cc.c:6443
+    namespace: dd
+    replicaCount: 1
